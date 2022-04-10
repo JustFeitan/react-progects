@@ -13,6 +13,7 @@ import {getPagesCount} from "../components/utils/pages";
 import Pagination from "../components/UI/Pagination/Pagination";
 import login from "./Login";
 import {useObserver} from "../hooks/useObserver";
+import MySelect from "../components/UI/select/MySelect";
 
 function Posts() {
     const [posts, setPosts] = useState([]);
@@ -38,7 +39,7 @@ function Posts() {
 
     useEffect(() => {
         fetchPosts(limit, page)
-    }, [page])
+    }, [page, limit])
 
     const createPost = (newPost) => {
         setPosts([...posts, newPost])
@@ -65,6 +66,17 @@ function Posts() {
             <PostFilter
                 filter={filter}
                 setFilter={setFilter}
+            />
+            <MySelect
+                value={limit}
+                defaultValue='Кол-во элементоа на странице '
+                onChange={value => setLimit(value)}
+                options={[
+                    {value: 5, name: '5'},
+                    {value: 10, name: '10'},
+                    {value: 25, name: '25'},
+                    {value: -1, name: 'Показать всё'},
+                ]}
             />
             {postError &&
                 <h1>Ошибка ${postError}</h1>
