@@ -1,25 +1,24 @@
 nav {
-    width: initial;
+    width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: lightgray;
 }
 
 .navbar__links {
-    width: 100%;
+    list-style: none;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
 }
 
 .navbar__link {
-    list-style-type: none;
     width: 100%;
-    height: 100%;
-
+        height: 100%;
 }
 
 .navbar__link a{
