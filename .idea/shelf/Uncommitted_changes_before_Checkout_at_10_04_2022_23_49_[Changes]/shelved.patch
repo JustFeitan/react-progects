@@ -1,0 +1,55 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9ff5e647-0c49-4b6a-94a0-4bc916f08429\" name=\"Changes\" comment=\"Endless posts feed\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Posts.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Posts.jsx\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"24QB4qVs2QC9ZxnLrMlyn3XLONW\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\" value=\"PLAIN_TEXT\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../firstbyme\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"run.code.analysis.last.selected.profile\" value=\"pProject Default\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"advanced.settings\" />\r\n    <property name=\"ts.external.directory.path\" value=\"C:\\Program Files\\JetBrains\\WebStorm 2021.3.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Mob\\WebstormProjects\\FirstSteps\\first\\src\\hooks\" />\r\n      <recent name=\"C:\\Users\\Mob\\WebstormProjects\\FirstSteps\\first\\src\\styles\" />\r\n      <recent name=\"C:\\Users\\Mob\\WebstormProjects\\FirstSteps\\first\\src\\components\\UI\" />\r\n      <recent name=\"C:\\Users\\Mob\\WebstormProjects\\FirstSteps\\first\\src\\components\\MyModal\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9ff5e647-0c49-4b6a-94a0-4bc916f08429\" name=\"Changes\" comment=\"\" />\r\n      <created>1643552741799</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1643552741799</updated>\r\n      <workItem from=\"1643552743450\" duration=\"4850000\" />\r\n      <workItem from=\"1643982172961\" duration=\"281000\" />\r\n      <workItem from=\"1647957637436\" duration=\"1821000\" />\r\n      <workItem from=\"1648131918577\" duration=\"8412000\" />\r\n      <workItem from=\"1648222588516\" duration=\"5074000\" />\r\n      <workItem from=\"1648473703864\" duration=\"1198000\" />\r\n      <workItem from=\"1648482101340\" duration=\"7855000\" />\r\n      <workItem from=\"1648501023524\" duration=\"601000\" />\r\n      <workItem from=\"1648553032141\" duration=\"15615000\" />\r\n      <workItem from=\"1648738037089\" duration=\"3132000\" />\r\n      <workItem from=\"1648741560056\" duration=\"7346000\" />\r\n      <workItem from=\"1648810458590\" duration=\"6804000\" />\r\n      <workItem from=\"1648817275196\" duration=\"6916000\" />\r\n      <workItem from=\"1649069526318\" duration=\"20703000\" />\r\n      <workItem from=\"1649108676896\" duration=\"1000\" />\r\n      <workItem from=\"1649361016732\" duration=\"1612000\" />\r\n      <workItem from=\"1649441279743\" duration=\"1591000\" />\r\n      <workItem from=\"1649508658512\" duration=\"3964000\" />\r\n      <workItem from=\"1649591222943\" duration=\"19446000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com\">\r\n      <created>1649441473017</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1649441473017</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com\">\r\n      <created>1649441498541</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1649441498541</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Made routing, public and private routes, using useContext hook\">\r\n      <created>1649619140313</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1649619140313</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Endless posts feed\">\r\n      <created>1649622287743</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1649622287743</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com\" />\r\n    <MESSAGE value=\"Made routing, public and private routes, using useContext hook\" />\r\n    <MESSAGE value=\"Endless posts feed\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Endless posts feed\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -3,7 +3,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="9ff5e647-0c49-4b6a-94a0-4bc916f08429" name="Changes" comment="Endless posts feed">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts.jsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -19,6 +18,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitSEFilterConfiguration">
+@@ -90,7 +94,7 @@
+       <workItem from="1649361016732" duration="1612000" />
+       <workItem from="1649441279743" duration="1591000" />
+       <workItem from="1649508658512" duration="3964000" />
+-      <workItem from="1649591222943" duration="19446000" />
++      <workItem from="1649591222943" duration="20167000" />
+     </task>
+     <task id="LOCAL-00001" summary="Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com">
+       <created>1649441473017</created>
+@@ -120,7 +124,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1649622287743</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Endless posts feed">
++      <created>1649623191213</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1649623191213</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
