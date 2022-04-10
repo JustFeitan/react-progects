@@ -11,6 +11,7 @@ import Loader from "../components/UI/Loader/Loader";
 import {useFetching} from "../hooks/useFetching";
 import {getPagesCount} from "../components/utils/pages";
 import Pagination from "../components/UI/Pagination/Pagination";
+import MySelect from "../components/UI/select/MySelect";
 
 function Posts() {
     const [posts, setPosts] = useState([])
@@ -22,7 +23,7 @@ function Posts() {
     const sortedAndSearchPosts = usePosts(posts, filter.sort, filter.query)
 
 
-    const  [fetchPosts, isPostLoading, postError] = useFetching(async () => {
+    const  [fetchPosts, isPostLoading, postError] = useFetching(async (limit, page) => {
         const response = await PostService.getAll(limit, page);
         setPosts(response.data);
         const totalCount = response.headers['x-total-count'];
@@ -31,8 +32,8 @@ function Posts() {
     })
 
     useEffect(() => {
-        fetchPosts()
-    }, [page])
+        fetchPosts(limit, page);
+    }, [page, limit])
 
     const createPost = (newPost) => {
         setPosts([...posts, newPost])
@@ -60,6 +61,16 @@ function Posts() {
                 filter={filter}
                 setFilter={setFilter}
             />
+            <MySelect
+                value={limit}
+                defaultValue='Кол-во потстов на странице'
+                onChange={value => setLimit(value)}
+                options={[
+                    {value: 5, name: '5'},
+                    {value: 10, name: '10'},
+                    {value: 25, name: '25'},
+                    {value: -1, name: 'Показать все'},
+                ]}/>
             {postError &&
                 <h1>Ошибка ${postError}</h1>
             }

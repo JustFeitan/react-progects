@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ff5e647-0c49-4b6a-94a0-4bc916f08429" name="Changes" comment="Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com">
+    <list default="true" id="9ff5e647-0c49-4b6a-94a0-4bc916f08429" name="Changes" comment="Endless posts feed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/button/MyButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/comment/comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/comment/comment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +19,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="endless-posts-feed" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -100,7 +96,7 @@
       <workItem from="1649361016732" duration="1612000" />
       <workItem from="1649441279743" duration="1591000" />
       <workItem from="1649508658512" duration="3964000" />
-      <workItem from="1649591222943" duration="15265000" />
+      <workItem from="1649591222943" duration="20847000" />
     </task>
     <task id="LOCAL-00001" summary="Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com">
       <created>1649441473017</created>
@@ -116,7 +112,28 @@
       <option name="project" value="LOCAL" />
       <updated>1649441498541</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made routing, public and private routes, using useContext hook">
+      <created>1649619140313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649619140313</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Endless posts feed">
+      <created>1649622287743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649622287743</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Endless posts feed">
+      <created>1649623191213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649623191213</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +144,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -135,6 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made PostList, Posts, Modal Window for add posts, realized get posts from https://jsonplaceholder.typicode.com" />
+    <MESSAGE value="Made routing, public and private routes, using useContext hook" />
+    <MESSAGE value="Endless posts feed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Endless posts feed" />
   </component>
 </project>
