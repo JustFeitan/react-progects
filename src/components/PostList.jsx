@@ -1,8 +1,11 @@
 import React from 'react';
 import Post from "./Post";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
+import Loader from "./UI/Loader/Loader";
 
-const PostList = ({posts, title, deleteP}) => {
+const PostList = ({posts, title, deleteP, isPostLoading}) => {
+
+
 
     if (!posts.length) {
         return (<h1 style={{textAlign: "center"}}>

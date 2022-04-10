@@ -9,7 +9,6 @@ const Navbar = () => {
     const {isAuth, setIsAuth} = useContext(AuthContext);
     const navigate = useNavigate()
     const location = useLocation()
-    console.log(isAuth)
     const logout = () => {
         setIsAuth(false);
         localStorage.setItem('auth', 'false');

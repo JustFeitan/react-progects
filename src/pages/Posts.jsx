@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import '../styles/app.css';
 import PostList from "../components/PostList";
 import MyButton from "../components/UI/button/MyButton";
@@ -11,27 +11,33 @@ import Loader from "../components/UI/Loader/Loader";
 import {useFetching} from "../hooks/useFetching";
 import {getPagesCount} from "../components/utils/pages";
 import Pagination from "../components/UI/Pagination/Pagination";
+import login from "./Login";
+import {useObserver} from "../hooks/useObserver";
 
 function Posts() {
-    const [posts, setPosts] = useState([])
-    const [filter, setFilter] = useState({sort: '', query: ''})
-    const [modal, setModal] = useState(false)
+    const [posts, setPosts] = useState([]);
+    const [filter, setFilter] = useState({sort: '', query: ''});
+    const [modal, setModal] = useState(false);
     const [totalPages, setTotalPages] = useState(0);
     const [limit, setLimit] =useState(10);
     const [page, setPage] =useState(1);
-    const sortedAndSearchPosts = usePosts(posts, filter.sort, filter.query)
+    const sortedAndSearchPosts = usePosts(posts, filter.sort, filter.query);
+    const lastElement = useRef();
 
-
-    const  [fetchPosts, isPostLoading, postError] = useFetching(async () => {
+    const  [fetchPosts, isPostLoading, postError] = useFetching(async (limit, page) => {
         const response = await PostService.getAll(limit, page);
-        setPosts(response.data);
+        setPosts([...posts, ...response.data]);
         const totalCount = response.headers['x-total-count'];
         setTotalPages(getPagesCount(limit, totalCount));
 
     })
 
+    useObserver(lastElement, page < totalPages, isPostLoading, () => {
+        setPage(page + 1)
+    })
+
     useEffect(() => {
-        fetchPosts()
+        fetchPosts(limit, page)
     }, [page])
 
     const createPost = (newPost) => {
@@ -63,10 +69,15 @@ function Posts() {
             {postError &&
                 <h1>Ошибка ${postError}</h1>
             }
-            {isPostLoading
-                ? <Loader/>
-                : <PostList posts={sortedAndSearchPosts} title={"Список постов 1"} deleteP={deletePost}/>
-            }
+            {isPostLoading && <Loader/>}
+                 <PostList
+                     posts={sortedAndSearchPosts}
+                     title={"Список постов 1"}
+                     deleteP={deletePost}
+                     isPostLoading={isPostLoading}
+                 />
+            <div ref={lastElement} style={{height: '20px', background: 'black'}}/>
+
             <Pagination
                 totalPages={totalPages}
                 page={page}
