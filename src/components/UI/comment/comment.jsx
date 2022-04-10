@@ -5,8 +5,8 @@ const Comment = ({comments}) => {
         <div className={classes.comments}>
             <h2>Комментарии</h2>
             {comments.map((c) =>
-                <div className={classes.comments__wrapper}>
-                    <h3 key={c.id}>{c.name}</h3>
+                <div key={c.id} className={classes.comments__wrapper}>
+                    <h3 >{c.name}</h3>
                     <p>{c.body}</p>
                 </div>
 

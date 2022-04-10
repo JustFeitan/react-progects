@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import {useParams} from "react-router";
+import {useNavigate, useParams} from "react-router";
 import PostService from "../API/PostService";
 import {useFetching} from "../hooks/useFetching";
 import Loader from "../components/UI/Loader/Loader";
 import Comment from "../components/UI/comment/comment";
+import MyButton from "../components/UI/button/MyButton";
 
 const PostIdPage = () => {
     const params = useParams();
@@ -18,6 +19,11 @@ const PostIdPage = () => {
         const response = await PostService.getCommentByPostId(id)
         setComments(response.data)
     })
+
+    const navigate = useNavigate();
+
+    const goBack = () => navigate(-1);
+
     useEffect(() => {
         fetchPostById(params.id);
         fetchComments(params.id)
@@ -26,6 +32,12 @@ const PostIdPage = () => {
 
     return (
         <div>
+            <div>
+                <MyButton onClick={goBack}>Назад</MyButton>
+                <MyButton onClick={() => navigate(`/posts/${params.id}/edit`)}>Изменить</MyButton>
+            </div>
+
+
             {isLoading
                 ? <Loader/>
                 : <div>
